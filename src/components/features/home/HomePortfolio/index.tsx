@@ -11,7 +11,7 @@ import Heading from "@/components/ui/Heading";
 
 const HomePortfolio = () => {
     return (
-        <section id={PORTFOLIO_SECTION} className="section__portfolio relative">
+        <section id={PORTFOLIO_SECTION} className="section__portfolio">
             <div className="container">
                 {/* Portfolio Title */}
                 <Heading

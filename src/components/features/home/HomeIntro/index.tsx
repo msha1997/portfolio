@@ -53,9 +53,9 @@ const HomeIntro: FC = () => {
                             initial="hidden"
                             animate="visible"
                         >
-                            I design and develop services for customers of all
-                            sizes, specializing in creating stylish, modern
-                            websites, web services and online stores.
+                            I design and develop modern, stylish websites, web
+                            services, and online stores for clients of all
+                            sizes.
                         </motion.p>
 
                         <motion.div

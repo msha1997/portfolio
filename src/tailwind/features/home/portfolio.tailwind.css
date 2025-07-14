@@ -1,5 +1,5 @@
 .section__portfolio {
-    @apply bg-orange-100 py-20;
+    @apply bg-orange-100 py-20 relative;
 }
 
 /* Container */
