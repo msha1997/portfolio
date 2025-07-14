@@ -35,7 +35,7 @@
 }
 
 .header__hamburger-btn {
-    @apply focus:outline-none md:hidden block;
+    @apply focus:outline-none lg:hidden block;
 }
 
 .header__hamburger-icon {
