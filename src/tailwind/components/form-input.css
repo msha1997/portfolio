@@ -1,0 +1,9 @@
+.form__input,
+.form__textarea {
+    @apply w-full p-3 border border-gray-300 focus:outline-none;
+}
+
+.form__input--invalid,
+.form__input--invalid:focus {
+    @apply border-red-500;
+}

@@ -1,0 +1,91 @@
+.header {
+    @apply fixed top-0 left-0 w-full z-50 border-b-2 border-gray-900 bg-white shadow-md transition-shadow duration-300;
+}
+
+.header__container {
+    @apply container mx-auto px-4 flex items-center justify-between h-16 overflow-hidden;
+}
+
+.header__logo {
+    @apply flex-shrink-0 overflow-hidden;
+}
+
+.header__desktop-menu {
+    @apply hidden lg:flex lg:items-center lg:space-x-6;
+}
+
+.header__menu-link {
+    @apply relative px-4 text-sm py-2 rounded-full font-medium uppercase transition-all duration-300;
+}
+
+.header__menu-link--active {
+    @apply text-gray-900 bg-yellow-400;
+}
+
+.header__cta {
+    @apply hidden lg:block ml-4;
+}
+
+.header__button {
+    @apply px-6 py-3 bg-yellow-400 font-semibold border-2 border-gray-900 uppercase transition duration-300;
+}
+
+.header__hamburger {
+    @apply lg:hidden z-50;
+}
+
+.header__hamburger-btn {
+    @apply focus:outline-none md:hidden block;
+}
+
+.header__hamburger-icon {
+    @apply w-8 h-8 flex flex-col justify-center items-center transition-transform duration-300 cursor-pointer;
+}
+
+.header__line {
+    @apply w-6 h-0.5 bg-gray-900 rounded transition-all duration-300;
+}
+
+.header__line--top-active {
+    @apply rotate-45 translate-y-1.5;
+}
+
+.header__line--middle {
+    @apply my-1;
+}
+
+.header__line--middle-active {
+    @apply opacity-0;
+}
+
+.header__line--bottom-active {
+    @apply -rotate-45 -translate-y-1.5;
+}
+
+.header__mobile-menu {
+    @apply absolute top-16 left-0 w-full bg-white border-y-2 border-gray-900 overflow-hidden transition-all duration-300 lg:hidden;
+}
+
+.header__mobile-menu--open {
+    @apply max-h-96;
+}
+
+.header__mobile-menu--closed {
+    @apply max-h-0;
+}
+
+.header__mobile-menu-container {
+    @apply mx-auto px-4 py-4 flex flex-col space-y-4;
+}
+
+.header__mobile-link {
+    @apply px-8 py-2 font-semibold uppercase transition duration-300 rounded-full text-gray-800 hover:bg-gray-100 w-fit;
+}
+
+.header__mobile-link--active {
+    @apply bg-yellow-400;
+}
+
+.header__contact-btn {
+    @apply mt-4 px-6 py-3 bg-yellow-400 font-semibold border-2 border-gray-900 uppercase transition duration-300 w-fit;
+}

@@ -1,0 +1,31 @@
+.services-section {
+    @apply bg-orange-100 py-20;
+}
+
+.services__container {
+    @apply container mx-auto px-6;
+}
+
+.services__grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-4;
+}
+
+.service__item {
+    @apply bg-white p-8 relative;
+}
+
+.service__number {
+    @apply absolute top-4 left-4 text-4xl font-semibold;
+}
+
+.service__icon {
+    @apply text-6xl mb-4 text-black bg-orange-300 p-6 rounded-full;
+}
+
+.service__title {
+    @apply text-2xl font-semibold mb-3;
+}
+
+.service__desc {
+    @apply text-gray-600;
+}

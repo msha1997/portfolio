@@ -1,0 +1,64 @@
+.home-intro {
+    @apply relative bg-white overflow-hidden;
+}
+
+.home-intro__effect {
+    @apply absolute hidden md:block;
+}
+
+.home-intro__effect--1 {
+    @apply top-1/6 left-10;
+}
+
+.home-intro__effect--2 {
+    @apply bottom-1/6 right-10;
+}
+
+.home-intro__container {
+    @apply container mx-auto px-4 relative z-10;
+}
+
+.home-intro__content {
+    @apply flex items-center min-h-screen flex-col md:flex-row;
+}
+
+.home-intro__text-section {
+    @apply w-full md:w-1/2 py-10 md:pe-10 flex flex-col justify-center items-center md:items-start;
+}
+
+.home-intro__paragraph {
+    @apply text-gray-600 mb-8 max-w-xl text-center md:text-left text-lg;
+}
+
+.home-intro__button-container {
+    @apply flex justify-center md:justify-start;
+}
+
+.home-intro__button {
+    @apply px-6 py-3 bg-indigo-600 text-white shadow-md transition-colors duration-300 hover:bg-indigo-700;
+}
+
+.home-intro__image-section {
+    @apply w-full md:w-1/2 flex justify-center py-10;
+}
+
+.home-intro__image-wrapper {
+    @apply relative w-full max-w-[488px] aspect-[488/645] cursor-pointer;
+}
+
+.home-intro__image {
+    @apply absolute inset-0 w-full h-full transition-transform hover:scale-105 object-cover;
+}
+
+/* intro-typed */
+.intro-typed {
+    @apply mb-6 text-center md:text-left text-4xl md:text-5xl;
+}
+
+.intro-typed__text {
+    @apply block sm:inline;
+}
+
+.intro-typed__name {
+    @apply font-semibold text-indigo-500;
+}
