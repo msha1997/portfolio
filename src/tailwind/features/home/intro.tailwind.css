@@ -43,7 +43,7 @@
 }
 
 .home-intro__image-wrapper {
-    @apply relative w-full max-w-[488px] aspect-[488/645] cursor-pointer;
+    @apply relative w-full max-w-[300px] md:max-w-[488px] aspect-[488/645] cursor-pointer;
 }
 
 .home-intro__image {
