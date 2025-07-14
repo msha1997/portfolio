@@ -89,11 +89,12 @@
     @apply relative flex flex-col items-center mt-12;
 }
 
-/* .skill-section__effects {
+.skill-section__effects {
 }
 
 .skill-section__effect {
-} */
+    @apply hidden md:block;
+}
 
 .skill-section__avatar {
     @apply w-full max-w-64;

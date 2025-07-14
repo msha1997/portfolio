@@ -23,7 +23,7 @@
 }
 
 .home-intro__text-section {
-    @apply w-full md:w-1/2 py-10 md:pe-10 flex flex-col justify-center items-center md:items-start;
+    @apply w-full md:w-1/2 py-4 md:py-10 md:pe-10 flex flex-col justify-center items-center md:items-start;
 }
 
 .home-intro__paragraph {
@@ -39,7 +39,7 @@
 }
 
 .home-intro__image-section {
-    @apply w-full md:w-1/2 flex justify-center py-10;
+    @apply w-full md:w-1/2 flex justify-center py-4 md:py-10;
 }
 
 .home-intro__image-wrapper {
